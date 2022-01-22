@@ -21,6 +21,8 @@ Export-Package: org.archicontribs.modelrepository,
  org.archicontribs.modelrepository.views.branches,
  org.archicontribs.modelrepository.views.history,
  org.archicontribs.modelrepository.views.repositories
+Import-Package: org.eclipse.core.net.proxy,
+ org.eclipse.equinox.security.storage
 Bundle-ClassPath: org.archicontribs.modelrepository.jar,
  lib/com.jcraft.jsch_0.1.55.v20190404-1902.jar,
  lib/com.jcraft.jzlib_1.1.1.v201205102305.jar,
